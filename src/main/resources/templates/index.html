@@ -45,11 +45,10 @@
 						<td th:text="${pro.existencia}"></td>					
 
 						<td>
-
-							<a th:href="@{/editar/}+${pro.id}" class="btn btn-warning">Editar</a>
-
-							<a th:href="@{/eliminar/}+${pro.id}" class="btn btn-danger">Eliminar</a>
-
+							<a th:href="@{/editar/}+${pro.id}"><img width="28" src="https://cdn-icons-png.flaticon.com/512/5251/5251816.png"></a>						
+						</td>
+						<td>
+							<a th:href="@{/eliminar/}+${pro.id}"><img width="28" src="https://cdn-icons-png.flaticon.com/512/3817/3817209.png"></a>
 						</td>
 
 					</tr>
